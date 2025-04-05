@@ -14,3 +14,4 @@ def two_sum(nums, target):
             return [num_dict[complement], i]
         num_dict[num] = i
     return []
+print("hello twosum")
