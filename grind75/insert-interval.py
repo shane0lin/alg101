@@ -1,5 +1,8 @@
 # 57. Insert Interval
 # https://leetcode.com/problems/insert-interval/
+
+from typing import List
+
 def insert(intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
     res, i = [], 0
     while i < len(intervals) and intervals[i][1] < newInterval[0]:
