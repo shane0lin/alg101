@@ -1,4 +1,7 @@
 # 295 Find Median from Data Stream
+import heapq
+
+
 class MedianFinder(object):
     def __init__(self):
         """
