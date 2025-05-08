@@ -24,6 +24,7 @@ def calculate(s):
         # print(stack)
     return sum(stack)
 
+
 print(calculate("3+2*5"))
 print(calculate(" 3/2 "))
 print(calculate(" 3+5 / 2 "))
