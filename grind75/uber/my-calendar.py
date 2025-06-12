@@ -58,4 +58,16 @@ class MyCalendar:
 myCalendar = MyCalendar()
 assert myCalendar.book(10, 20) == True  # return True
 assert myCalendar.book(15, 25) == False # return False, It can not be booked because time 15 is already booked by another event.
-assert myCalendar.book(20, 30) == True  # return True, The event can be booked, as the first event takes every time less than 20, but not including 20.
+assert myCalendar.book(20, 30) == True  # return True, The event can be booked, as the first event takes every time less than 20, but not including 20.\\
+
+myCalendar = MyCalendar()
+assert myCalendar.book(47,50) == True
+assert myCalendar.book(33,41) == True
+assert myCalendar.book(39,45) == False
+assert myCalendar.book(33,42) == False
+assert myCalendar.book(25,32) == True
+assert myCalendar.book(26,35) == False
+assert myCalendar.book(19,25) == True
+assert myCalendar.book(3,8) == True
+assert myCalendar.book(8,13) == True
+assert myCalendar.book(18,27) == False
