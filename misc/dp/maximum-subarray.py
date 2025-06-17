@@ -41,7 +41,7 @@ def maxSubArray(nums: List[int]) -> int:
         else:
             dp[i] = max(dp[i-1] + nums[i], nums[i])
         rst = max(dp[i], rst)
-    return rst
+    return
 
 
 
