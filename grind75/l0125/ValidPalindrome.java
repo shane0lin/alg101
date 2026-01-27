@@ -1,6 +1,6 @@
-package grind75.l0020;
+package grind75.l0125;
 
-public class ValidParentheses {
+public class ValidPalindrome {
     public static boolean isValid(String s) {
         boolean rst = true;
         int n = s.length();
