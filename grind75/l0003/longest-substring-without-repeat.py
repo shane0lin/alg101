@@ -1,5 +1,5 @@
 def lengthOfLongestSubstring(s: str) -> int:
-    l, r =0, 0
+    l, r =0, 0  # noqa: E741
     unqiue = set([])
     rst = 0
     while r < len(s):
