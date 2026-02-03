@@ -17,8 +17,8 @@ def threeSum(nums: List[int]) -> List[List[int]]:
                 if (nums[left], nums[right]) != last_pair:
                     rst.append([-target, nums[left], nums[right]])
                     last_pair = (nums[left], nums[right])
-                    left += 1
-                    right -=1
+                left += 1
+                right -=1
             elif nums[left] + nums[right] > target:
                 right -= 1
             else:
@@ -30,6 +30,7 @@ def threeSum(nums: List[int]) -> List[List[int]]:
     return rst
 
 # print(threeSum(nums=[2, 7,11,15]))
-print(threeSum(nums=[-1, 0, 1,2,-1,-4]))
+# print(threeSum(nums=[-1, 0, 1,2,-1,-4]))
 # print(threeSum(nums=))
 # print(threeSum(nums=))
+print(threeSum(nums=[1,2,0,1,0,0,0,0]))
