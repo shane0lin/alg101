@@ -54,6 +54,6 @@ def orangesRotting(grid: List[List[int]]) -> int:
                 return -1
     return mins
 
-# print(orangesRotting(grid = [[2,1,1],[1,1,0],[0,1,1]]))
-# print(orangesRotting(grid = [[2,1,1],[0,1,1],[1,0,1]]))
+print(orangesRotting(grid = [[2,1,1],[1,1,0],[0,1,1]]))
+print(orangesRotting(grid = [[2,1,1],[0,1,1],[1,0,1]]))
 print(orangesRotting(grid=[[0]]))
