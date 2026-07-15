@@ -8,10 +8,11 @@ func main() {
 	// var n int
 	// fmt.Scan(&n)
 	//var card string = "Ace of Spades"
-	card := newCard()
-	cards := deck{"Ace of Diamonds", newCard()}
-	cards = append(cards, "King of Heart")
-	fmt.Println(card)
+	// card := newCard()
+	// cards := deck{"Ace of Diamonds", newCard()}
+	// cards = append(cards, "King of Heart")
+	// fmt.Println(card)
+	cards := newDeck()
 	fmt.Println(cards)
 
 	// for i, card := range cards {
