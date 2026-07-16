@@ -18,7 +18,7 @@ func main() {
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
-	cards.print()
+	cards[0:2].print()
 }
 
 func newCard() string {
