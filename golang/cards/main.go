@@ -28,4 +28,9 @@ func main() {
 	cards := newDeck()
 	fmt.Println(cards.toString())
 
+	cards.saveToFile("./test.tmp")
+
+	d := newDeckFromFile("./test.tmp")
+	d.print()
+
 }
