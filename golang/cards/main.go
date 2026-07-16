@@ -14,13 +14,14 @@ func main() {
 	// fmt.Println(card)
 	cards := newDeck()
 	fmt.Println(cards)
+	fmt.Println()
 
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
-	cards[0:2].print()
-}
-
-func newCard() string {
-	return "Three of Diamonds"
+	// cards[0:2].print()
+	hands, remainingCards := deal(cards, 5)
+	hands.print()
+	fmt.Println()
+	remainingCards.print()
 }
