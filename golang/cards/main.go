@@ -12,16 +12,20 @@ func main() {
 	// cards := deck{"Ace of Diamonds", newCard()}
 	// cards = append(cards, "King of Heart")
 	// fmt.Println(card)
-	cards := newDeck()
-	fmt.Println(cards)
-	fmt.Println()
+	// cards := newDeck()
+	// fmt.Println(cards)
+	// fmt.Println()
 
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
 	// cards[0:2].print()
-	hands, remainingCards := deal(cards, 5)
-	hands.print()
-	fmt.Println()
-	remainingCards.print()
+	// hands, remainingCards := deal(cards, 5)
+	// hands.print()
+	// fmt.Println()
+	// remainingCards.print()
+
+	cards := newDeck()
+	fmt.Println(cards.toString())
+
 }
