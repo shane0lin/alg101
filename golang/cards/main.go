@@ -32,5 +32,8 @@ func main() {
 
 	d := newDeckFromFile("./test.tmp")
 	d.print()
+	d.shuffle()
+
+	d.print()
 
 }
